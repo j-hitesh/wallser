@@ -1,0 +1,134 @@
+.about-page{background:#f8f3eb}
+.about-page .header .logo img{display:block;width:63px;height:auto}
+.about-page .nav a[aria-current="page"]{color:#967142;text-decoration:underline;text-underline-offset:6px}
+.about-page main h2{font-size:clamp(36px,4vw,55px);line-height:1.05;margin:14px 0 20px}
+.about-page section[id]{scroll-margin-top:100px}
+.about-page button:focus-visible,.about-page a:focus-visible,.about-review-track:focus-visible,.about-page summary:focus-visible{outline:2px solid #ae8245;outline-offset:4px}
+.about-section{padding:40px 0!important}
+.about-intro{padding:28px 0 82px;background:radial-gradient(ellipse at 78% 8%,#e8d8bd66,transparent 48%)}
+.about-breadcrumb{display:flex;gap:12px;color:#827667;font-size:11px;margin-bottom:45px}
+.about-breadcrumb a{color:#393127}
+.about-intro-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:center}
+.about-intro-copy{min-width:0}
+.about-intro-copy h1{font-size:clamp(46px,4.7vw,69px);font-weight:600;line-height:1.01;color:#211b15;margin:18px 0 24px;max-width:590px}
+.about-intro-copy h1 em{color:#9b7744;font-weight:500}
+.about-intro-copy>p{font-size:14px;color:#6c6256;line-height:1.85;max-width:540px;margin-bottom:14px}
+.about-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.about-actions .btn{padding:13px 19px}
+.about-photo{position:relative;min-width:0;padding:10px;background:#e9ddcb;border-radius:130px 24px 24px 24px;margin-bottom:15px}
+.about-photo>img{width:100%;height:auto;display:block;aspect-ratio:1600 / 1065;border-radius:122px 17px 17px 17px}
+.about-photo-note{position:absolute;bottom:-24px;left:-25px;display:flex;align-items:center;gap:18px;background:#211b15;color:#fff9f0;padding:21px 25px;border-radius:16px;box-shadow:0 12px 26px #211b151a}
+.about-photo-note>strong{font:600 48px/1 'Cormorant Garamond',Georgia,serif;color:#dfbc80;white-space:nowrap}
+.about-photo-note>strong>span{font-size:31px}
+.about-photo-note>div{font-size:12px;font-weight:600}
+.about-photo-note small{display:block;font-size:10px;color:#c9bba6;font-weight:400;margin-top:4px}
+.about-photo-caption{display:block;text-align:right;font-size:8px;letter-spacing:2.3px;color:#8c7654;padding:12px 4px 3px}
+.about-numbers{background:#211c16;color:#fffaf2;padding:34px 0}
+.about-numbers-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.about-numbers-grid>div{padding:10px 25px;border-right:1px solid #66513a80}
+.about-numbers-grid>div:first-child{padding-left:0}
+.about-numbers-grid>div:last-child{border-right:0}
+.about-numbers strong{font:500 53px/1 'Cormorant Garamond',Georgia,serif;color:#e1c08b}
+.about-numbers strong>span{font-size:32px}
+.about-numbers p{font-size:11px;color:#d9ccbb;letter-spacing:.3px;margin:9px 0 0}
+.about-story-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:90px}
+.about-story-signature{font:500 25px/1.4 'Cormorant Garamond',Georgia,serif;margin:30px 0 0;color:#74624d}
+.about-story-signature em{color:#ad8653}
+.about-story-copy{padding-top:20px}
+.about-story-copy>p{color:#706558;line-height:1.95;margin-bottom:20px}
+.about-focus{display:flex;flex-wrap:wrap;gap:8px;margin-top:25px}
+.about-focus span{font-size:10px;border:1px solid #d9c8af;border-radius:30px;padding:8px 12px;color:#7d6545}
+.about-faq-section{background:#fffcf7;border-block:1px solid #eaddca}
+.about-faq-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:85px}
+.about-faq-intro>p{color:#776c5e;font-size:13px;line-height:1.85;max-width:360px}
+.about-help{border:1px solid #e0cfb6;border-radius:20px;background:#f8f1e6;padding:25px;margin-top:27px}
+.about-help-mark{font:400 28px/1 Georgia,serif;color:#ac854d}
+.about-help h3{font:600 28px/1.1 'Cormorant Garamond',Georgia,serif;margin:15px 0 9px}
+.about-help p{font-size:12px;color:#7a6d5b;line-height:1.7;margin-bottom:20px}
+.about-help .btn{font-size:11px;padding:11px 16px}
+.about-questions{border-top:1px solid #e1d2bd}
+.about-questions .faq summary{display:grid;grid-template-columns:24px minmax(0,1fr) 16px;align-items:start;gap:15px;font-size:13px;line-height:1.6;padding:23px 0}
+.about-questions .faq summary .about-faq-number{font-size:10px;letter-spacing:1px;padding-top:3px;color:#a5804e}
+.about-questions .faq[open] summary .about-faq-number{transform:none}
+.about-questions .faq p{padding:0 26px 20px 39px;font-size:12px;line-height:1.85;margin-bottom:0}
+.about-reviews{background:#242019;color:#fff9ef;overflow:hidden}
+.about-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:35px}
+.about-section-head h2{max-width:720px}
+.about-section-head p{font-size:13px;color:#7c7162;line-height:1.75;margin:0;max-width:620px}
+.about-reviews .eyebrow{color:#d7b581}
+.about-reviews .about-section-head p{color:#c5b6a2}
+.about-review-controls{display:flex;align-items:center;gap:10px;flex-shrink:0;padding-bottom:5px}
+#review-count{font-size:10px;letter-spacing:1px;color:#d4b37e;min-width:50px}
+.about-review-arrow{display:grid;place-items:center;width:43px;height:43px;border-radius:50%;border:1px solid #796449;background:transparent;color:#f4e4cc;font-size:20px}
+.about-review-arrow:disabled{opacity:.3;cursor:default}
+.about-review-arrow:not(:disabled):hover{background:#b48c4c;color:#211c16}
+.about-review-track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#94703c #3b3123;padding-bottom:20px;overscroll-behavior-x:contain}
+.about-review-card{flex:0 0 calc((100% - 40px) / 3);min-width:0;background:#fffcf6;color:#261f18;padding:28px 24px;border-radius:20px;display:flex;flex-direction:column;scroll-snap-align:start}
+.about-review-stars{color:#a77c37;letter-spacing:3px;font-size:13px}
+.about-review-card blockquote{font:500 25px/1.4 'Cormorant Garamond',Georgia,serif;margin:24px 0 30px}
+.about-review-person{display:flex;gap:12px;align-items:center;border-top:1px solid #e9dccb;padding-top:18px;margin-top:auto}
+.about-review-person>span{width:39px;height:39px;border-radius:50%;display:grid;place-items:center;background:#eee0ca;color:#8b6535;font-family:'Cormorant Garamond',Georgia,serif;font-size:24px}
+.about-review-person strong{font-size:11px;display:block}
+.about-review-person small{display:block;color:#8d7c65;font-size:9px;margin-top:4px}
+.about-insights{background:#f3ecdf}
+.about-insight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}
+.about-insight-card{background:#fffcf7;border:1px solid #e2d2bc;border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.about-insight-image{position:relative;display:block;overflow:hidden;background:#ded1bc}
+.about-insight-image img{display:block;width:100%;height:228px;object-fit:cover;transition:transform .3s}
+.about-insight-image:hover img{transform:scale(1.04)}
+.about-insight-image>span{position:absolute;bottom:14px;left:14px;background:#fffcf7f0;border-radius:24px;padding:7px 12px;color:#5e4e38;font-size:9px;letter-spacing:.8px}
+.about-insight-copy{display:flex;flex-direction:column;flex:1;padding:25px}
+.about-insight-copy>small{font-size:8px;letter-spacing:1.2px;color:#9d7947}
+.about-insight-copy h3{font:600 28px/1.15 'Cormorant Garamond',Georgia,serif;margin:14px 0 13px}
+.about-insight-copy p{font-size:12px;color:#7b6d5c;line-height:1.8;margin-bottom:23px}
+.about-insight-copy>a{margin-top:auto;font-size:11px;color:#916a35;font-weight:700}
+.about-consultation{background:#fdf9f1}
+.about-consultation-grid{display:grid;grid-template-columns:1fr .86fr;gap:90px;align-items:center}
+.about-consultation-copy>p{font-size:13px;color:#776956;line-height:1.85;max-width:500px}
+.about-support-list{list-style:none;margin:30px 0;padding:0}
+.about-support-list>li{display:flex;gap:18px;padding:18px 0;border-top:1px solid #e3d5bf}
+.about-support-list>li>span{color:#ae8650;font-size:10px;letter-spacing:1px;margin-top:5px}
+.about-support-list h3{font:600 24px/1.2 'Cormorant Garamond',Georgia,serif;margin:0 0 5px}
+.about-support-list p{font-size:12px;color:#83715a;margin:0;line-height:1.75}
+.about-contact-phone{display:block;color:#8f7d64;font-size:10px;letter-spacing:1px;text-transform:uppercase}
+.about-contact-phone strong{display:block;color:#211c16;font-size:18px;letter-spacing:0;margin-top:5px}
+.about-consultation-form{padding:32px;background:#fffdfa;border:1px solid #e2d3bd;border-radius:26px;box-shadow:0 18px 45px #5740220a}
+.about-consultation-form>h3{font:600 41px/1.05 'Cormorant Garamond',Georgia,serif;margin:13px 0}
+.about-consultation-form>p{color:#7e6e5a;font-size:12px;line-height:1.7}
+.about-consultation-form .field{margin:17px 0}
+.about-consultation-form label{display:block;font-size:10px;font-weight:600;color:#514431;margin-bottom:7px}
+.about-consultation-form label>span{font-weight:400;color:#8a7a65}
+.about-consultation-form .field :is(input,select){font-size:12px;background:#fcf8f2;border-color:#e2d3bc;min-height:46px;border-radius:10px;outline:0}
+.about-consultation-form .field :is(input,select):focus{border-color:#b48c4c;box-shadow:0 0 0 3px #b48c4c15}
+.about-consultation-form>button{width:100%;min-height:48px;margin-top:5px}
+.about-consultation-form .about-form-note{font-size:9px;color:#9b8c79;margin:15px 0 0}
+.about-page #lead-modal h2{font-size:37px;margin:12px 0}
+.about-modal-copy{font-size:12px;color:#7c6d59;line-height:1.7}
+.about-page #lead-modal .hero-enquiry-form .field{margin:5px 0}
+.about-page #lead-modal label{display:block;margin-bottom:5px}
+@media(max-width:1040px){.about-intro-grid{gap:36px}.about-intro-copy h1{font-size:55px}.about-photo-note{left:-10px;padding:18px}.about-story-grid,.about-faq-grid,.about-consultation-grid{gap:42px}.about-review-card{flex-basis:calc((100% - 20px) / 2)}.about-insight-copy{padding:20px}}
+@media(max-width:760px){
+  .about-section{padding:15px 0!important}.about-page main h2{font-size:39px}.about-intro{padding:22px 0 49px}.about-breadcrumb{margin-bottom:28px}
+  .about-intro-grid{grid-template-columns:minmax(0,1fr);gap:32px}.about-intro-copy h1{font-size:clamp(36px,10.8vw,59px);max-width:570px}.about-intro-copy>p{font-size:13px}.about-actions{flex-wrap:nowrap;gap:9px}.about-actions>.btn{flex:1 1 0;min-width:0;font-size:clamp(9px,2.6vw,12px);padding:12px 5px;gap:3px;white-space:nowrap;min-height:46px}
+  .about-photo{margin-bottom:0;border-radius:95px 20px 20px 20px;padding:8px}.about-photo>img{border-radius:89px 14px 14px 14px}.about-photo-note{left:18px;bottom:12px;gap:12px;padding:13px 16px;border-radius:12px}.about-photo-note>strong{font-size:37px}.about-photo-note>strong>span{font-size:24px}.about-photo-note>div{font-size:10px}.about-photo-note small{font-size:8px}.about-photo-caption{font-size:7px}
+  .about-numbers{padding:20px 0}.about-numbers-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0}.about-numbers-grid>div,.about-numbers-grid>div:first-child{padding:20px 15px;border-right:0}.about-numbers-grid>div:nth-child(odd){border-right:1px solid #66513a80}.about-numbers-grid>div:nth-child(-n+2){border-bottom:1px solid #66513a80}.about-numbers strong{font-size:44px}.about-numbers p{font-size:10px;line-height:1.5}
+  .about-story-grid,.about-faq-grid,.about-consultation-grid{grid-template-columns:1fr;gap:28px}.about-story-signature{font-size:23px;margin-top:20px}.about-story-copy{padding-top:0}.about-story-copy>p{font-size:13px}.about-faq-intro>p{max-width:none}.about-help{margin-top:22px}.about-questions .faq summary{gap:10px;font-size:12px}.about-questions .faq p{padding-left:34px}
+  .about-section-head{align-items:flex-start;flex-direction:column;gap:23px}.about-review-controls{align-self:flex-end}.about-review-card{flex-basis:calc(100% - 24px);padding:26px 22px}.about-review-card blockquote{font-size:27px}.about-insight-grid{grid-template-columns:1fr;gap:22px}.about-insight-image img{height:auto;aspect-ratio:3 / 2}.about-insight-copy{padding:24px}.about-insight-copy h3{font-size:31px}
+  .about-consultation-form{padding:25px 21px;border-radius:22px}.about-consultation-form>h3{font-size:38px}.about-consultation-grid{gap:32px}.about-focus span{font-size:9px;padding:7px 10px}
+}
+@media(prefers-reduced-motion:reduce){.about-insight-image img{transition:none}}
+
+/* Standardized Y-direction padding */
+.about-section,
+.section {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+@media (max-width: 880px) {
+  .about-section,
+  .section {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+}

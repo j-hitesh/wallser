@@ -1,0 +1,33 @@
+.street-73-brand{flex-shrink:0}
+.street-73-brand img{display:block;width:120px;height:auto;max-height:42px;max-width:100%}
+.street-88a-brand{flex-shrink:0}
+.street-88a-brand img{display:block;width:44px;height:auto;max-height:44px;filter:brightness(0)}
+@media(max-width:800px){
+  .street-73-brand img{width:102px;max-height:36px}
+  .street-88a-brand img{width:38px;max-height:38px}
+}
+@media(max-width:540px){
+  .street-73-brand img{width:90px;max-height:32px}
+  .street-88a-brand img{width:34px;max-height:34px}
+}
+@media(min-width:901px){.hero{background-image:url('../images/wal-street-73-comm-1.webp')!important}}
+.hero-mobile-image{background-image:url('../images/wal-street-73-comm-1.webp')!important}
+.vt-feature{background-image:linear-gradient(105deg,rgba(26,22,16,.88),rgba(47,39,28,.57)),url('../images/wal-street-73-comm-1.webp')!important;background-size:cover!important;background-position:center!important}
+#gallery .gallery img{object-fit:cover}
+#plans .plan-visual img{object-fit:contain!important}
+#amenities .amenity-icon,
+#amenities .amenity-icon svg {
+  color:#b48c4c !important;
+  stroke:#b48c4c !important;
+  background:transparent !important;
+  border-color:transparent !important;
+  box-shadow:none !important;
+}
+#amenities .amenity-icon svg * { stroke:#b48c4c !important; }
+#amenities .amenity-tile h3 { color:#24211d !important; }
+#reviews .review-disclosure{font-size:12px}
+@media(max-width:900px){
+  .hero{background:#f7f1e7!important;background-image:none!important}
+  .hero::before,.hero::after,.hero:before,.hero:after{display:none!important;content:none!important;background-image:none!important}
+  .hero-mobile-image{display:block!important;background-image:url('../images/wal-street-73-comm-1.webp')!important}
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" width="800" height="1130">
+  <rect width="800" height="1130" fill="#fdfbf7"/>
+  <rect x="28" y="28" width="744" height="1074" fill="#fffefc" stroke="#b8935c" stroke-width="2"/>
+  <rect x="36" y="36" width="728" height="1058" fill="none" stroke="#e5d7c3" stroke-width="1"/>
+  
+  <text x="740" y="60" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#554a3e" letter-spacing="1">PROMOTER COPY</text>
+  
+  <rect x="50" y="75" width="700" height="110" fill="#fff" stroke="#b8935c" stroke-width="1.2"/>
+  <line x1="50" y1="112" x2="750" y2="112" stroke="#b8935c" stroke-width="1"/>
+  <line x1="520" y1="75" x2="520" y2="185" stroke="#b8935c" stroke-width="1"/>
+  
+  <text x="285" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1b365d" letter-spacing="0.5">REGISTRATION NO. RC/REP/HARERA/GGM/627/359/2022/102</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2a241c">RC/REP/HARERA/GGM/627/359/2022/102</text>
+  <text x="70" y="168" font-family="Arial, sans-serif" font-size="11" fill="#665a4c">UNIQUE NO. GENERATED ONLINE</text>
+  
+  <text x="535" y="140" font-family="Arial, sans-serif" font-size="12" fill="#2a241c"><tspan font-weight="bold">Date:</tspan> 21.11.2022</text>
+  <text x="535" y="168" font-family="Arial, sans-serif" font-size="11" fill="#665a4c">HARERA-GGM-627-2022</text>
+  
+  <text x="400" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#1b365d" letter-spacing="1">REGISTRATION CERTIFICATE</text>
+  <text x="400" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#6b583e" letter-spacing="2">REAL ESTATE PROJECT</text>
+  
+  <rect x="160" y="395" width="480" height="55" rx="6" fill="#f9f4ec" stroke="#d9c4a5" stroke-width="1"/>
+  <text x="400" y="433" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#9b2c1c" letter-spacing="2">WAL STREET 73</text>
+  
+  <text x="400" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#3a3227">COMMERCIAL SHOP-CUM-OFFICE (SCO) PLOTS</text>
+  <text x="400" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#635645">Sector 73, Southern Peripheral Road (SPR), Gurugram, Haryana</text>
+  <text x="400" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#2a241c">Total Land Area: 2.825 Acres | SCO Plot Sizes: 115–298 Sq. Yd.</text>
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#635645">Promoter / Developer: WAL Developments</text>
+  
+  <line x1="120" y1="620" x2="680" y2="620" stroke="#e5d7c3" stroke-width="1"/>
+  
+  <circle cx="400" cy="730" r="52" fill="#fff" stroke="#2d7a46" stroke-width="2"/>
+  <text x="400" y="722" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2d7a46" letter-spacing="1">HARERA</text>
+  <text x="400" y="742" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1b365d" letter-spacing="1.5">GURUGRAM</text>
+  <text x="400" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#665a4c">सत्यमेव जयते</text>
+  
+  <text x="400" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#9b2c1c" letter-spacing="1">HARYANA REAL ESTATE REGULATORY AUTHORITY</text>
+  <text x="400" y="855" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1b365d" letter-spacing="1.5">GURUGRAM</text>
+  
+  <rect x="80" y="940" width="210" height="75" fill="none" stroke="#2a4365" stroke-width="1.5"/>
+  <text x="185" y="962" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1b365d">AUTHENTICATED</text>
+  <text x="185" y="982" text-anchor="middle" font-family="Brush Script MT, cursive" font-size="18" fill="#1a365d">HARERA Official</text>
+  <text x="185" y="1002" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">PLANNING EXECUTIVE</text>
+  
+  <text x="700" y="1000" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#8a7c6a">Valid under Section 5, Real Estate (Regulation &amp; Development) Act, 2016</text>
+</svg>
