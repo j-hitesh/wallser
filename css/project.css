@@ -339,4 +339,24 @@ h3,h4,.brand strong,.price-card .value,.trust-item strong{font-family:'Cormorant
   }
 }
 
-
+@media (max-width: 767px) {
+  .brochure-section .brochure-art {
+    display: none !important;
+  }
+  .brochure-wrap {
+    grid-template-columns: 1fr !important;
+    padding: 24px 20px !important;
+    gap: 0 !important;
+    min-height: auto !important;
+  }
+  .brochure-copy p {
+    max-width: 100% !important;
+  }
+  #price .price-card > .btn,
+  #price .price-card .btn {
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+}
