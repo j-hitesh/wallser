@@ -455,13 +455,12 @@
     modal.classList.add('open');
     document.body.style.overflow = 'hidden';
 
-    var firstInput = modal.querySelector('input:not([type="hidden"])');
-    if (firstInput) {
-      setTimeout(function () {
-        try {
-          firstInput.focus();
-        } catch (e) {}
-      }, 150);
+    // Keep focus inside the dialog without opening the mobile keyboard.
+    var closeButton = modal.querySelector('.close, #close-modal, #modalClose, .modal-close');
+    if (closeButton) {
+      try {
+        closeButton.focus({ preventScroll: true });
+      } catch (e) {}
     }
   }
 
